@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="50" failures="1" name="TestSuite" time="1,114.553" errors="0" skipped="49">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nipunverma\Downloads\Selenium Project_Dnt Delete\ALLSampleCodes"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nipunverma\Downloads\Selenium Project_Dnt Delete\ALLSampleCodes"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NIPUNV~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.8.1\apache-maven\src\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\nodejs;C:\Android\platform-tools;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\nodejs\node_modules;C:\Program Files\Git\cmd;C:\Program Files\Mozilla Firefox;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\apache-tomcat-8.5.71\bin;C:\Users\nipunverma\AppData\Roaming\npm;C:\Users\nipunverma\AppData\Roaming\npm\node_modules\newman\bin;C:\Users\nipunverma\Downloads\Selenium Project_Dnt Delete\ALLSampleCodes;C:\Users\nipunverma\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nipunverma"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nipunverma"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.TestCases.TestCase_ScrollPage" name="intialiseBrowser" time="101.253">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NIPUNVERMA&apos;, ip: &apos;192.168.29.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NIPUNVERMA&apos;, ip: &apos;192.168.29.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at com.Utility.BrowserFactory.startApplication(BrowserFactory.java:60)
+	at com.TestCases.TestCase_ScrollPage.intialiseBrowser(TestCase_ScrollPage.java:23)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 34 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 192.168.29.127/192.168.29.127:5555 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1908)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 44 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 192.168.29.127/192.168.29.127:5555 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@50c87b21
+Chrome driver used
+Chrome driver used
+Firefox driver used
+Chrome driver used
+Chrome driver used
+Chrome driver used
+</system-out>
+    <system-err>Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 5891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1636457057.932][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 09, 2021 4:54:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 09, 2021 4:54:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: a no-op implementation
+Nov 09, 2021 4:54:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 95.
+Nov 09, 2021 4:54:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 19448
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1636457061.978][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 09, 2021 4:54:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 09, 2021 4:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: a no-op implementation
+Nov 09, 2021 4:54:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 95.
+Nov 09, 2021 4:54:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+1636457070315	geckodriver	INFO	Listening on 127.0.0.1:19252
+1636457070827	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\NIPUNV~1\\AppData\\Local\\Temp\\rust_mozprofileHl1lrs&quot;
+1636457071388	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\nipunverma\\AppData\\Local\\Temp\\rust_mozprofileHl1lrs\\search.json.mozlz4&quot;, (void 0)))
+1636457073899	Marionette	INFO	Listening on port 65414
+1636457074014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Nov 09, 2021 4:54:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript error: https://www.contextures.com/src/lite-yt-embed.js, line 1: SyntaxError: redeclaration of let LiteYTEmbed
+JavaScript warning: https://ads.adthrive.com/builds/core/5e6b9fc/js/adthrive.min.js?threshold=0&amp;deployment=stable&amp;cb=1636457077694, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 1396
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1636457080.051][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 09, 2021 4:54:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 09, 2021 4:54:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: a no-op implementation
+Nov 09, 2021 4:54:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 95.
+Nov 09, 2021 4:54:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 2786
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1636457087.170][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 09, 2021 4:54:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 09, 2021 4:54:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: a no-op implementation
+Nov 09, 2021 4:54:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 95.
+Nov 09, 2021 4:54:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0jmaLa2Vi7bQBj1dGHpx_-l8OaoLSmLq4coDUffl6zA.js line 1 &gt; eval line 5477 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0jmaLa2Vi7bQBj1dGHpx_-l8OaoLSmLq4coDUffl6zA.js line 1 &gt; eval line 5925 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 46263
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1636457094.557][WARNING]: This version of ChromeDriver has not been tested with Chrome version 95.
+Nov 09, 2021 4:54:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 09, 2021 4:54:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: a no-op implementation
+Nov 09, 2021 4:54:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 95.
+Nov 09, 2021 4:54:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0jmaLa2Vi7bQBj1dGHpx_-l8OaoLSmLq4coDUffl6zA.js line 1 &gt; eval line 3708 &gt; eval line 1 &gt; eval line 1 &gt; eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1636457152230	Marionette	WARN	Ignoring event &apos;pageshow&apos; because document has an invalid readyState of &apos;uninitialized&apos;.
+</system-err>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_TextFileReader" name="startApplication" time="101.266">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_WindowHandler" name="browserIntialise" time="101.266">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ColorChange" name="browserIntialization" time="101.266">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_CsvFileReader" name="browserIntialization" time="101.266">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_DataProvider_TestNG" name="browserIntialization" time="101.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HashMapImplementation" name="browserIntialization" time="101.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HashMapWithExcel" name="intialseBrowser" time="101.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ParallelTest" name="browserIntialise" time="101.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestClass_SelectDeselect" name="browserIntialization" time="101.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCases_BrokenLinl" name="browserIntialization" time="101.309">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCases_BrokenLinl" name="BrokenLink_TestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ColorChange" name="TestCase_VerifyColorChange" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_CsvFileReader" name="csvReader" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_DataProvider_TestNG" name="userDetails" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ExcelReading" name="TestCase_ReadExcel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_FrameHandling" name="TestCase_FrameHandle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC10" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC3" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC4" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC5" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC6" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC7" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC8" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_GroupingConcept" name="groupingMethod_TC9" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HandleRobotClass" name="TestCase_WindowHandle" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HandleStaleElement" name="browserIntialization" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HandleStaleElement" name="HandleStaleElementExcptn_TestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HandleStaleElement" name="browserSetUpClosure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HashMapImplementation" name="passUserCredentials" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HashMapWithExcel" name="excelWithHashMapImplementation_TC" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HighlightElement" name="TestCase_Verify_Element_Highlighted" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HighlightElement" name="browserSetUpClosure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_NestedFrame" name="TestCase_HandleNestedFrame" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_Pagination" name="testCase_VerifyPagination" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ScrollPage" name="verifyScrollFunc" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_TextFileReader" name="readTextFile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_WindowHandler" name="TestCase_WindowHandle" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestClass_SelectDeselect" name="testCase_SelectDeselect" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ColorChange" name="browserSetUpClosure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_CsvFileReader" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_HashMapWithExcel" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestClass_SelectDeselect" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ExcelReading" name="tearDown" time="0.117">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_NestedFrame" name="tearDown" time="0.117">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ParallelTest" name="tearDown" time="0.117">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_ScrollPage" name="tearDown" time="0.117">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.TestCases.TestCase_TextFileReader" name="tearDown" time="0.117">
+    <skipped/>
+  </testcase>
+</testsuite>
