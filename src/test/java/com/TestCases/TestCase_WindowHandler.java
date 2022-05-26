@@ -16,15 +16,17 @@ public class TestCase_WindowHandler {
 	
 	@BeforeSuite
 	public void browserIntialise() throws MalformedURLException {
-	driver = 	BrowserFactory.startApplication(driver, "Chrome", "https://demoqa.com/browser-windows");
-		
+	//driver = BrowserFactory.startApplication(driver, "Chrome", "https://demoqa.com/browser-windows");
+	driver = BrowserFactory.startApplication(driver, "Chrome", "https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target");
+	
 	}
 	
 	
 	@Test
-	public void TestCase_WindowHandle() {
+	public void TestCase_WindowHandle() throws InterruptedException {
 		WindowHandler WW =	PageFactory.initElements(driver, WindowHandler.class);
-		WW.HandleWindow();
+		WW.HandleWindowz();
+		
 	}
 	
 

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-15T16:16:03 IST" name="Default suite" finished-at="2021-11-15T16:16:10 IST" duration-ms="7536">
+  <suite started-at="2022-05-25T19:48:11 IST" name="Default suite" finished-at="2022-05-25T19:48:12 IST" duration-ms="464">
     <groups>
     </groups>
-    <test started-at="2021-11-15T16:16:03 IST" name="Default test" finished-at="2021-11-15T16:16:10 IST" duration-ms="7536">
-      <class name="com.TestCases.TestCase_HandleRobotClass">
-        <test-method is-config="true" signature="browserIntialise()[pri:0, instance:com.TestCases.TestCase_HandleRobotClass@4082ba93]" started-at="2021-11-15T16:15:56 IST" name="browserIntialise" finished-at="2021-11-15T16:16:03 IST" duration-ms="6650" status="PASS">
+    <test started-at="2022-05-25T19:48:11 IST" name="Default test" finished-at="2022-05-25T19:48:12 IST" duration-ms="464">
+      <class name="com.TestCases.TestCase_FrameHandling">
+        <test-method is-config="true" signature="browserIntialise()[pri:0, instance:com.TestCases.TestCase_FrameHandling@eadd4fb]" started-at="2022-05-25T19:47:57 IST" name="browserIntialise" finished-at="2022-05-25T19:48:11 IST" duration-ms="14243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserIntialise -->
-        <test-method signature="TestCase_WindowHandle()[pri:0, instance:com.TestCases.TestCase_HandleRobotClass@4082ba93]" started-at="2021-11-15T16:16:03 IST" name="TestCase_WindowHandle" finished-at="2021-11-15T16:16:10 IST" duration-ms="7511" status="PASS">
+        <test-method signature="TestCase_FrameHandle()[pri:0, instance:com.TestCases.TestCase_FrameHandling@eadd4fb]" started-at="2022-05-25T19:48:11 IST" name="TestCase_FrameHandle" finished-at="2022-05-25T19:48:12 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase_WindowHandle -->
-      </class> <!-- com.TestCases.TestCase_HandleRobotClass -->
+        </test-method> <!-- TestCase_FrameHandle -->
+      </class> <!-- com.TestCases.TestCase_FrameHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

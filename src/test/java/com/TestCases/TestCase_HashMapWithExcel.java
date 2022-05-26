@@ -31,7 +31,7 @@ public class TestCase_HashMapWithExcel {
 		HashMapWithExcel HME =	PageFactory.initElements(driver, HashMapWithExcel.class);
 		//HME.readExcelData("HashMap");
 		//HME.readCSVData();
-		//HME.readExcelDataWithHashMap(null);
+		HME.readExcelDataWithHashMap(null);
 		
 	}
 	

@@ -18,14 +18,22 @@ public class TestCase_CloseDesiredWindow {
 	
 	@BeforeTest
 	public void intialiseBrowser() throws MalformedURLException {
-	driver = 	BrowserFactory.startApplication(driver, "Chrome", "https://secure.indeed.com/account/login");	
-	}
+	//driver = 	BrowserFactory.startApplication(driver, "Chrome", "https://secure.indeed.com/account/login");	
+	driver = 	BrowserFactory.startApplication(driver, "Chrome", "https://google.com");
+	
+}
 	
 	
 	@Test
 	public void TestCase_CloseDesiredWindow() {
 	 CloseSpecificWindow CW =	PageFactory.initElements(driver, CloseSpecificWindow.class);
-	 CW.closeDesiredWindow();
+	 System.out.print("Factory_Method_1 :: Class 1 ");
+	// CW.closeDesiredWindow();
+	}
+	
+	@Test
+	public void Factory_M1() {
+		System.out.print("Factory_Method_2 :: Class 1 ");
 	}
 	
 	

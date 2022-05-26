@@ -30,6 +30,7 @@ public class HashMapWithExcel {
 		for (int i = 0; i <= row_Count; i++) {
 			XSSFRow row = sheet.getRow(i);
 
+			
 			int cell_Count = row.getLastCellNum();
 
 			for (int j = 0; j < cell_Count; j++) {
@@ -67,21 +68,16 @@ public class HashMapWithExcel {
 			HashMap<String , String > HSS = new HashMap<String , String>();
 						
 			String keyValue = (sheet.getRow(i).getCell(0)).toString();
-			//System.out.println(keyValue + " ");
+			System.out.println("Key Passed :::" +      keyValue + " " );
 			
 			String Value = (sheet.getRow(i).getCell(1)).toString();
-			System.out.println(Value   + " ");
+			System.out.println("Value Extracted :::" + Value   + " ");
 			
 			break;
 								
 				}
 				
 		}
-		
-		//HashMap Implementation 
-		
-		
-
 		
 	}
 	

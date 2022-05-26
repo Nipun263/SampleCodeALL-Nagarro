@@ -19,13 +19,15 @@ public static WebDriver driver ;
 	public void browserIntialise() throws MalformedURLException {
 	driver = 	BrowserFactory.startApplication(driver, "Chrome", "http://demo.guru99.com/test/guru99home/");
 		
+	
+	
 	}
 	
 	
 	@Test
 	public void TestCase_FrameHandle() throws InterruptedException {
 		FrameHandling WW =	PageFactory.initElements(driver, FrameHandling.class);
-		WW.handle_Frame();
+		WW.HandleFramez();
 	}
 	
 

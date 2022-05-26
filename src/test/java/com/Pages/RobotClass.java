@@ -14,6 +14,7 @@ public class RobotClass {
 	public static WebDriver driver;
 
 	public RobotClass(WebDriver driver) {
+		
 		this.driver = driver;
 	}
 	

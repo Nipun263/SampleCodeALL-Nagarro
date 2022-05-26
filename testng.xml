@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.TestCases.TestCase_TextFileReader"/>
+      <class name="com.TestCases.TestCase_ColorChange"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

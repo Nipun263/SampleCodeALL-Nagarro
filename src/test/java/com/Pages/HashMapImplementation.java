@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,47 +21,46 @@ public class HashMapImplementation {
 	}
 	
 	
-	public HashMap<Object, Object>  hashMapUtilization() {
+	public void PassUserCredentials() {
 		
-		HashMap<Object,Object> HSS = new HashMap<Object,Object>();
+		WebElement UserName = driver.findElement(By.name("username"));
 		
-		HSS.put("FirstUser", "Nipun:Password1");
-		HSS.put("SecondUser", "Nidhi:Password2");
-		HSS.put("ThirdUser", "Sanjeev:Password3");
-		HSS.put("ForthUser", "Sunita:Password4");
+		WebElement Password = driver.findElement(By.name("password"));
+		
+		UserName.sendKeys(UserNameToPass());
+		
+		Password.sendKeys(Password());
+		
+	}
+	
+	
+	public HashMap<String, String> HashMapImplementation() {
+		
+		HashMap<String,String> HSS = new LinkedHashMap<String,String>();
+		
+		HSS.put("UserName1", "Nipun:Pass1");
+		HSS.put("UserName2", "Nipun11:Pass9");
+		HSS.put("UserName3", "Nipun12:Pass8");
+		HSS.put("UserName4", "Nipun15:Pass4");
 		
 		return HSS;
+	}
+	
+	public String UserNameToPass() {
 		
+		String UserNameExtracted = HashMapImplementation().get("UserName4").toString().split(":")[0];
+		
+		return UserNameExtracted;
 	}
 	
 	
-	public void passUserDetails(String Key) {
+	public String Password() {
 		
-		WebElement userName = driver.findElement(By.name("username"));
-		WebElement password  = driver.findElement(By.name("password"));
+		String PasswordExtracted = HashMapImplementation().get("UserName4").toString().split(":")[1];
 		
-		userName.sendKeys(passFirstName(Key));
-		password.sendKeys(passLastName(Key));
-		
-		
+		return PasswordExtracted;
 	}
 	
-	
-	public String passFirstName(String Key) {
-	
-		String firstNameToPass = hashMapUtilization().get(Key).toString().split(":")[0];
-		
-		return firstNameToPass;
-	}
-	
-	
-	public String passLastName(String Key) {
-		
-		String lastNameToPass = hashMapUtilization().get(Key).toString().split(":")[1];
-
-		return lastNameToPass;
-		
-	}
 	
 	
 }

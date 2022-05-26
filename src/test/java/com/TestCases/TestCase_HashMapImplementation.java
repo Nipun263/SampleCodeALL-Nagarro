@@ -27,9 +27,9 @@ public class TestCase_HashMapImplementation {
 	
 	@Test
 	public void passUserCredentials() {
-		HashMapImplementation HSS = 	PageFactory.initElements(driver, HashMapImplementation.class);
-		HSS.passUserDetails("SecondUser");
-		//HSS.hashTableUtilization();
+		HashMapImplementation HSS = PageFactory.initElements(driver, HashMapImplementation.class);
+		HSS.PassUserCredentials();
+		
 	}
 
 }

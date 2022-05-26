@@ -1,5 +1,7 @@
 package com.Pages;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -10,7 +12,7 @@ import org.openqa.selenium.WebElement;
 public class CloseSpecificWindow {
 
 	public static WebDriver driver;
-	
+
 	
 	public CloseSpecificWindow(WebDriver driver) {
 		this.driver = driver;
@@ -18,7 +20,10 @@ public class CloseSpecificWindow {
 
 	public void closeDesiredWindow() {
 		
-
+		
+	
+		
+		
 		
 		String handle = driver.getWindowHandle();
 		String SS =  driver.getTitle();

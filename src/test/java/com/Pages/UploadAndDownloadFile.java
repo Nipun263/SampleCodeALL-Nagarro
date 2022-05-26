@@ -36,48 +36,40 @@ public class UploadAndDownloadFile {
 	WebElement ConfirmationMsg;
 	
 	
-
-	// Option 1 : Where Input type = file
+	//Option 1 - Using Send Keys 
 	public void uploadFile_Option1() {
-		String filePath = System.getProperty("user.dir");
-
-		String PP = filePath + "\\Agile 2.PNG";
-
-		Uploadbtn.sendKeys(filePath + "\\Agile 2.PNG");
-
+		
+		
+		Uploadbtn.sendKeys("C:\\Users\\nipunverma\\Downloads\\Air_India_base.apk");
+		
 		CheckBox.click();
-
+		
 		SubmitBtn.click();
+		
 	}
-
+	
+		//Option 2 - Using Auto IT
 	
 	
-		// Option 2 : Using Robot Class
 		public void uploadFile_Option2() throws AWTException {
-	
-			Uploadbtn1.click();
-	
-			StringSelection ss = new StringSelection("C:\\Users\\nipunverma\\Desktop\\Agile.PNG");
-			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-			
-			
-			 Robot robot = new Robot();
-		     robot.delay(250);
-		     robot.keyPress(KeyEvent.VK_ENTER);
-		     robot.keyRelease(KeyEvent.VK_ENTER);
-		     robot.keyPress(KeyEvent.VK_CONTROL);
-		     robot.keyPress(KeyEvent.VK_V);
-		     robot.keyRelease(KeyEvent.VK_V);
-		     robot.keyRelease(KeyEvent.VK_CONTROL);
-		     robot.keyPress(KeyEvent.VK_ENTER);
-		     robot.delay(90);
-		     robot.keyRelease(KeyEvent.VK_ENTER);
-			
-	
-		     CheckBox.click();
-
-			 SubmitBtn.click();
-				
-				
-		}
+		
+		Uploadbtn1.click();
+		
+		// copying File path to Clipboard
+	    StringSelection str = new StringSelection("C:\\Users\\nipunverma\\Downloads\\Air_India_base.apk");
+	    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
+	 
+		
+		Robot robot = new Robot();
+		robot.delay(250);
+		robot.keyPress(KeyEvent.VK_CONTROL);
+	    robot.keyPress(KeyEvent.VK_V);
+	    robot.keyRelease(KeyEvent.VK_V);
+	    robot.keyRelease(KeyEvent.VK_CONTROL);
+	    robot.keyPress(KeyEvent.VK_ENTER);
+	    robot.keyRelease(KeyEvent.VK_ENTER);
+	    
+	    robot.delay(250);
+		
+	}
 }

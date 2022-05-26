@@ -1,12 +1,14 @@
 package com.TestCases;
 
 import java.awt.AWTException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Pages.HighLight_Element;
@@ -24,19 +26,13 @@ public class TestCase_UploadDownload {
 	
 	
 	@Test
-	public void TestCase_Verify_Element_Highlighted() throws AWTException {
+	public void TestCase_Verify_Element_Highlighted() throws AWTException, IOException {
 		UploadAndDownloadFile UPD = PageFactory.initElements(driver, UploadAndDownloadFile.class);
 		UPD.uploadFile_Option2();
 		
 	}
 	
 	
-	
-	/*
-	 * @AfterMethod public void browserSetUpClosure() {
-	 * BrowserFactory.closeApplication(driver); }
-	 */
-	 
 	
 	
 	

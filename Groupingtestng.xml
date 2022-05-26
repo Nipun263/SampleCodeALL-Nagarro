@@ -2,14 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <groups>  
-<run>  
-<include name="1"/>  
-<include name="3"/>
-</run>  
-</groups> 
+  <groups>		
+   <run>		
+    <exclude name="SmokeTest" />		
+    <include name="SanityTest" />	
+    <include name="RegressionTest" />	
+   </run>		
+  </groups>
+  
     <classes>
-     <class name="com.TestCases.TestCase_GroupingConcept"/>
+      <class name="com.TestCases.TestCase_GroupingConcept"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

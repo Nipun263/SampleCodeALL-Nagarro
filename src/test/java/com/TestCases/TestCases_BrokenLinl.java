@@ -2,6 +2,7 @@ package com.TestCases;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.sql.SQLException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -21,12 +22,13 @@ public class TestCases_BrokenLinl {
 	@BeforeMethod
 	public void browserIntialization() throws MalformedURLException {
 	driver = BrowserFactory.startApplication(driver, "Chrome","https://www.olx.in");
+	driver = BrowserFactory.startApplication(driver, "Chrome","https://www.olx.in");
 	}
 	
 	
 	
 	@Test
-	public void BrokenLink_TestCase() throws MalformedURLException, IOException {
+	public void BrokenLink_TestCase() throws MalformedURLException, IOException, SQLException {
 	BrokenLinks BLL = 	PageFactory.initElements(driver, BrokenLinks.class);
 	BLL.ValidateBrokenLink();
 	}

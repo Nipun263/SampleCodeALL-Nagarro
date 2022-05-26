@@ -1,18 +1,22 @@
 package com.Pages;
 
 import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.Listeners;
 
 
 
 public class PaginationVerify {
 
 	public static WebDriver driver;
+	
+	 static Logger logger = LogManager.getLogger(PaginationVerify.class);
+
 
 	public PaginationVerify(WebDriver driver) {
 		this.driver = driver;
@@ -26,9 +30,18 @@ public class PaginationVerify {
 
 		searchBox.sendKeys("pagination");
 		searchBox.sendKeys(Keys.ENTER);
+		
+		
+		logger.debug("This is a debug message");
+        logger.info("This is an info message");
+        logger.warn("This is a warn message");
+        logger.error("This is an error message");
+        logger.fatal("This is a fatal message");
 
 		JavascriptExecutor JS = (JavascriptExecutor) driver;
 		JS.executeScript("window.scrollBy(0,2000)");
+		
+		
 
 		List<WebElement> pages = driver.findElements(By.xpath("//*[@id='xjs']/table//tr//a"));
 		int size_Pages = pages.size();
